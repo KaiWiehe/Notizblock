@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+
+    <title>Kai's Notizblock</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body onload="render()">
+    <div class="header">
+        <h1>Kai's Notizblock</h1>
+        <input placeholder="Überschrift:" id="input-titel" type="text" class="input-titel">
+        <textarea placeholder="Text eingeben:" id="input-content" type="text" class="input-content"></textarea>
+        <button class="addNote" onclick="addNote()">Notiz hinzufügen</button>
+    </div>
+    <div id="content-container" class="content-container">
+
+    </div>
+    <div id="trash-container">
+
+    </div>
+</body>
+
+</html
